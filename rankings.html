@@ -284,6 +284,30 @@
     <script src="assets/js/jquery.appear.js"></script>
     <script src="assets/js/odometre.min.js"></script>
     <script src="assets/js/main.js"></script>
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        // Sayfa yüklendikten sonra çalışacak kodlar
+        document.querySelectorAll(".mobile-menu a").forEach((item) => {
+          item.addEventListener("click", function () {
+            document.querySelector(".main-menu-wrap").classList.add("open");
+            document
+              .querySelector(".mobile-bar-wrap.style2 .mobile-menu")
+              .classList.add("open");
+          });
+        });
+
+        // Menüyü kapatma işlevi
+        document
+          .querySelector(".menu-close")
+          .addEventListener("click", function () {
+            document.querySelector(".main-menu-wrap").classList.remove("open");
+            // Eğer menü açıkken başka bir elementin görünürlüğü değişiyorsa, aşağıdaki satırı da kullanabilirsiniz.
+            document
+              .querySelector(".mobile-bar-wrap.style2 .mobile-menu")
+              .classList.remove("open");
+          });
+      });
+    </script>
 </body>
 
 </html>
