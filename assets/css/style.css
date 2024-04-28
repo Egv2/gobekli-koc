@@ -5964,7 +5964,24 @@ input[type="date"] {
 .blog-bg-4 {
   background-image: url(../img/blog/blog-10.jpg);
 }
-
+.blog-bg-5 {
+  background-image: url(../img/blog/img72.png);
+}
+.blog-bg-6 {
+  background-image: url(../img/blog/img73.png);
+}
+.blog-bg-7 {
+  background-image: url(../img/blog/img74.png);
+}
+.blog-bg-8 {
+  background-image: url(../img/blog/img75.png);
+}
+.blog-bg-9 {
+  background-image: url(../img/blog/img76.png);
+}
+.blog-bg-10 {
+  background-image: url(../img/blog/img77.png);
+}
 .blog-wrap {
   position: relative;
 }
